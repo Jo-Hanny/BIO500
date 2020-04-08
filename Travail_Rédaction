@@ -1,2 +1,87 @@
 #Mettre les informations sous Overleaf pour créer le PDF de la rédaction
 
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[singlespacing]{setspace}
+\usepackage{geometry}
+\geometry{hmargin=2.5cm,vmargin=2cm}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+
+\title{S'en remettre à la reproductibilité,\\ 
+    \textit{Oui, je le veux !}}
+\author{Joannie Gagnon\\
+        Étudiante en Écologie,\\
+        Rédactrice d'article à temps partiel,\\
+        Université de Sherbrooke\\
+        }
+        
+\date{\today}
+\setlength{\parskip}{1em}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    La reproductibilité est un problème que les scientifiques connaissent depuis 2014 et peut-être même avant. Une bonne reproductibilité peut éviter à beaucoup de chercheurs de se faire injurer à tort, comme ce qui est arrivé à Jonathan Pruitt tout récemment. Les quelques solutions proposées ici seront d'une grande aide pour aider à sortir de cette boucle sans fin. La balle est dans le votre camp maintenant...
+\end{abstract}
+\section*{}
+\begin{wrapfigure}{r}{0.27\textwidth}
+    \centering
+    \includegraphics[width=0.2\textwidth]{Figure2.jpg}
+    \caption{J.G. Roberto}
+    \label{wrapfig:figure2}
+\end{wrapfigure}
+
+C'est tout récent que la communauté scientifique s'est penchée sur un cas de fraude de données scientifiques. L'article d'Elizabeth Pennisi décrit très bien la situation précaire du jeune écologiste comportemental, Jonathan Pruitt. Celui-ci s'est fait accusé de falsification de données pour son étude de la personnalité animale chez les araignées, car aucun autre chercheur était capable d'avoir les mêmes résultats. Étudiant avec précision les données et les résultats brutes, la communauté scientifique a classé Jonathan de fraudeur, et a retiré tous articles qui sont écrit ou en collaboration avec celui-ci. \textbf{Comment Jonathan peut-il s'en sortir maintenant ?}
+
+La reproductibilité. Un terme simple désignant \textit{« la capacité d’un chercheur ou d’une équipe à reproduire les informations d’une étude antérieure en s’appuyant sur les mêmes matériaux (texte, données, code de programmation) que ceux utilisés par le chercheur initial »} \cite{desquilbet2019vers, site2}. Autrement dit, faire une expérience déjà faite, avec la même méthode et avec les mêmes outils. Une analogie toute simple pour exprimer ce concept serait l'arrivée d'un nouveau cuisinier dans un restaurant, devant faire pour la première fois une recette très connue dudit restaurant. Il serait attendu qu'il puisse reproduire la recette (obtenir le même résultat), avec les ingrédients habituels (les mêmes données), selon les étapes préétablies (la même méthode). Juste avec la définition de la reproductibilité, la problématique s'y voit déjà sentir.
+
+
+\section*{La problématique}
+Ce n'est pas juste l'article de Mme Pennisi qui présente le problème d'incapacité à imiter un article déjà produit. Dans l’article de \textit{Nature} (dans l'article de Baker, 2016) \cite{baker2016reproducibility}, il est démontré qu'environ 70\% des chercheurs (sur un total de 1576) ont essayés de reproduire des résultats de recherche, sans y parvenir. De plus, la moitié d’entre eux le firent avec leur propre recherche. 
+
+Les quelques raisons du \textit{pourquoi ne sont-ils point capable de copier les articles} : 
+\begin{enumerate}
+    \item Des dizaines d'approches alternatives (voire des centaines) existent pour analyser les mêmes données \cite{munafo2017manifesto}. Ce qui engendre une différence majeure dans l’interprétation des données.
+    \item Les données peuvent être mal interprétées dans des publications, et une fois publiés, cette interprétation n’est plus effaçable \cite{mills2015archiving}. 
+    \item La majorité les études reproduites donnant des résultats non-significatifs sont mises de côté, car obtenir un résultat statique significatif indique automatiquement un résultat scientifique… \cite{site4}
+    \item L’incapacité de reproduire les résultats publiés signifie que le résultat est automatiquement faux \cite{baker2016reproducibility}.
+    \item Il y a une forte pression de publier le premier et de sélectionner des recherches qui donneront un résultat significatif \cite{baker2016reproducibility,munafo2017manifesto}.
+    \item Les chercheurs sont exposés à un risque plus élevé de voir leurs recherches ignorées simplement parce que d’autres non pas été capable de reproduire les expériences \cite{poisot2013moving}.\\
+\end{enumerate}
+
+Il en existe encore plusieurs autres. Toutefois, « ces réflexions (...) ont été noyées dans un discours qui associe les problèmes de reproductibilité avec tout ce qui ne fonctionne pas dans le monde scientifique \cite{site1}». La combinaison entre l’apophénie (dans ce contexte, c’est la tendance à voir des structures dans des données aléatoires), le biais de confirmation (la tendance à se concentrer sur des preuves qui correspondent à nos attentes, donc que des résultats positifs) et le biais de rétrospection (la tendance à considérer qu’un événement n’a été prévisible qu’après s’être produit) peut facilement conduire à de fausses conclusions \cite{munafo2017manifesto}, en plus d’avoir une pression de publier le plus tôt possible ou l’envie de réussir en absolu \cite{site3,site4}, des interprétations statistiques permissifs, un biais de confirmation d’hypothèse, la manipulation des données \cite{site1}, etc. Est-ce une combinaison de plusieurs de ces facteurs qui a mené à un manque de confiance envers monsieur Pruitt ? Est-ce un effet « boule de neige » ?
+
+\section*{Les solutions}
+N’aurait-il dont pas un moyen d’éviter, ou du moins de réduire, cette problématique ? Bien sûr. Il faut d'abord que le monde scientifique soit ouvert d'esprit et qu'il soit prêt à s'investir dans ces nouvelles procédures. En voici quelques solutions.
+\subsection*{1. Donner une formation}
+Avec une formation adéquate auprès des scientifiques sur la présentation des données, ceux-ci peuvent éviter des fausses interprétations. Par exemple, les diagrammes à barres sont conçus pour des variables catégorielles, et non avec des données continues comme certains aiment beaucoup faire. Les graphiques à lignes sont des tableaux visuels montrant entre autres la moyenne, l’erreur-type ou l’écart-type. De nombreuses distributions de données différentes peuvent conduire au même graphique (image ci-dessous). Les lecteurs déduisent donc à tort que ces données sont distribuées normalement, faussant ainsi les résultats. Dans le cas des petits échantillons, par exemple, ce sont les diagrammes de dispersion univariée qui représente le meilleur choix, car ils permettent aux lecteurs d’examiner leur distribution \cite{weissgerber2015beyond}. Puisque la présentation des données est essentielle, donner une formation auprès des scientifiques, des enquêteurs de publication et des étudiants pourraient permettre une standardisation et ainsi éviter des lacunes.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=15cm]{Figure1.png}
+    \caption{Plusieurs ensembles de données différentes conduisant au même graphique à barre \cite{weissgerber2015beyond}}
+    \label{figure1}
+\end{figure}
+
+
+\subsection*{2. Centraliser les données}
+La centralisation des données dans une base unique, situer à un seul endroit éviterait la fragmentation de celles-ci et assurerait leur totale sécurité et mise à jour \cite{mills2015archiving}. Cela peut être sous la forme d'un site internet en lien avec l’industrie de publication ou encore d'une plateforme accessible pour tout le monde. Par exemple, \textsc{Dryad} (référentiel international en libre accès) ou encore \textsc{TreeBASE} (référentiel de données phylogénétiques) sont des sites où les données brutes sont déposées dans des archives permanentes en libre accès \cite{mills2015archiving}. En partageant les données, Poisot et son équipe (2013) ont démontré qu’il y a une augmentation à la fois sur la qualité et la visibilité de la science que les chercheurs tentent de produire. Cette disponibilité améliore la reproductibilité et la communication adéquate des résultats. 
+\subsection*{3. Faire une prépublication}
+Vous arrive-t-il de demander un 2e avis à une tierce personne sur une action que vous voudriez faire? Comme par exemple, voir un 2e médecin pour confirmer une maladie quelconque... Il s'agirait du même principe. En partageant partiellement l’article, les chercheurs peuvent avoir un retour sur l’étude de la part d’une communauté diversifiée. Cela peut se trouver sous forme de plateforme ou de site internet. Il y a entre autres le site web \textsc{ConSORT} \textit{(Consolidated Standards of Reportings Trials)} qui fournit une orientation pour la rédaction d’un rapport clair, complet et précis. Tandis que la plateforme \textbf{\textit{Wellcome Open Research}}, lancée par la fondation \textit{Wellcome Trust}, offre une publication gratuite, immédiate et en libre accès avec une évaluation par les pairs après une publication. Ou encore le site web \textsc{PubPeer} qui est une autre alternative pour recevoir des commentaires sur une étude. Toutefois, ce site est public, et les commentaires anonymes \cite{munafo2017manifesto}. Tous ces exemples démontrent que la collaboration entre chercheurs améliore la qualité de leur rapport, et ainsi donc avoir une meilleure publication dans une revue littéraire.
+
+Il existe encore plein d’autres solutions. Les revues peuvent faire une section spéciale en indiquant qui a écrit l’article, qui a conçue l’étude ou encore qui a fourni les données \cite{poisot2013moving}. Ainsi, les chercheurs peuvent s’y référer sans souci et échanger au besoin. Les données peuvent être enregistrées sous forme Java Script (JSON) plutôt que sous format CSV par Excel \cite{poisot2013moving}. Le script Java permet entre autres une standardisation des données qui est plus facile à manipuler que le CSV. La promotion d'une présentation des données complètes plutôt que partielles est une autre solution \cite{weissgerber2015beyond}. Il est prouvé qu’avoir une plus grande taille échantillon donne des résultats plus significatives qu’une partie des données ou des données mises en commun dans un graphique.
+\clearpage
+
+\section*{Conclusion}
+Dans l’ensemble, si les chercheurs et les industries de publication se mettent tous d’accord sur les mêmes règles claires \cite{mills2015archiving}, précises et bien encadrées, le taux de reproductibilité pourra s’y voir doublé d’ici les prochaines années. L'impact du cas de Jonathan Pruitt a peut-être apporté beaucoup de remises en question auprès des schientifiques. Néanmoins, cela a aussi permis de faire avancer la science plus loin encore avec un regard différent. 
+
+Pour en savoir plus ou pour savoir par où commencer pour permettre une bonne reproductibilité, consultez le document de Desquilbet et ses collaborateurs. Vous y trouverez une mine d’informations.
+
+
+\bibliographystyle{apalike}
+\bibliography{Bibliographie.bib}
+\end{document}
