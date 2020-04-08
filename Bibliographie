@@ -1,0 +1,104 @@
+# Article de Weissgerber
+@article{weissgerber2015beyond,
+  title={Beyond bar and line graphs: time for a new data presentation paradigm},
+  author={Weissgerber, Tracey L and Milic, Natasa M and Winham, Stacey J and Garovic, Vesna D},
+  journal={PLoS biology},
+  volume={13},
+  number={4},
+  year={2015},
+  publisher={Public Library of Science}
+}
+
+# Document de Disquilbet
+@misc{desquilbet2019vers,
+  title={Vers une recherche reproductible},
+  author={Desquilbet, Loic and Granger, Sabrina and Hejblum, Boris and Legrand, Arnaud and Pernot, Pascal and Rougier, Nicolas P and de Castro Guerra, Elisa and Courbin-Coulaud, Martine and Duvaux, Ludovic and Gravier, Pierre and others},
+  year={2019}
+}
+
+# Article de Mills
+@article{mills2015archiving,
+  title={Archiving primary data: solutions for long-term studies},
+  author={Mills, James A and Teplitsky, C{\'e}line and Arroyo, Beatriz and Charmantier, Anne and Becker, Peter H and Birkhead, Tim R and Bize, Pierre and Blumstein, Daniel T and Bonenfant, Christophe and Boutin, Stan and others},
+  journal={Trends in Ecology \& Evolution},
+  volume={30},
+  number={10},
+  pages={581--589},
+  year={2015},
+  publisher={Elsevier}
+}
+
+# Article de Munafo
+@article{munafo2017manifesto,
+  title={A manifesto for reproducible science},
+  author={Munaf{\`o}, Marcus R and Nosek, Brian A and Bishop, Dorothy VM and Button, Katherine S and Chambers, Christopher D and Du Sert, Nathalie Percie and Simonsohn, Uri and Wagenmakers, Eric-Jan and Ware, Jennifer J and Ioannidis, John PA},
+  journal={Nature human behaviour},
+  volume={1},
+  number={1},
+  pages={1--9},
+  year={2017},
+  publisher={Nature Publishing Group}
+}
+
+# Article de Poisot 2013
+@article{poisot2013moving,
+  title={Moving toward a sustainable ecological science: don't let data go to waste!},
+  author={Poisot, Timoth{\'e}e E and Mounce, Ross and Gravel, Dominique},
+  journal={Ideas in Ecology and Evolution},
+  volume={6},
+  number={2},
+  year={2013}
+}
+
+# Article de Baker
+@article{baker2016reproducibility,
+  title={Reproducibility crisis?},
+  author={Baker, Monya},
+  journal={Nature},
+  volume={533},
+  number={26},
+  pages={353--66},
+  year={2016}
+}
+
+# Site internet 3 - France Inter
+@MISC {Site3,
+    author       = "Dominique Dupage",
+    title        = "Comment améliorer la reproductibilité de la recherche scientifique ?",
+    howpublished = "https://www.franceinter.fr/emissions/sante-polemique/sante-polemique-30-avril-2019",
+    month        = "apr",
+    year         = "2019",
+    note         = "Consulté le 3 avril 2020"
+}
+
+# Site internet 1 - Québec Science
+@MISC {Site1,
+    author       = "Marie Lambert-Chan",
+    title        = "Reproductibilité : de l’impasse à l’espoir",
+    howpublished = "https://www.quebecscience.qc.ca/edito/reproductibilite-impasse-espoir/",
+    month        = "feb",
+    year         = "2019",
+    crossref     = "Site1",
+    note         = "Consulté le 3 avril 2020"
+}
+
+# Site internet 2 - Pseudo-Science
+@MISC {Site2,
+    author       = "{AFIS Science}",
+    title        = "Comment améliorer la reproductibilité de la recherche scientifique ?",
+    howpublished = "https://www.pseudo-sciences.org/Comment-ameliorer-la-reproductibilite-de-la-recherche-scientifique",
+    month        = "feb",
+    year         = "2019",
+    crossref     = "Site2",
+    note         = "Consulté le 3 avril 2020"
+}
+
+# Site internet 4 - The Conversation
+@MISC {Site4,
+    author       = "Erwan Lamy",
+    title        = "Une crise de reproductibilité de la science ? Non, c’est bien pire !",
+    howpublished = "https://theconversation.com/une-crise-de-reproductibilite-de-la-science-non-cest-bien-pire-85652",
+    month        = "nov",
+    year         = "2017",
+    note         = "Consulté le 3 avril 2020"
+}
