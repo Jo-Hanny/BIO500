@@ -1,4 +1,4 @@
-# Article de Weissgerber
+% Article de Weissgerber
 @article{weissgerber2015beyond,
   title={Beyond bar and line graphs: time for a new data presentation paradigm},
   author={Weissgerber, Tracey L and Milic, Natasa M and Winham, Stacey J and Garovic, Vesna D},
@@ -9,14 +9,14 @@
   publisher={Public Library of Science}
 }
 
-# Document de Disquilbet
+% Document de Disquilbet
 @misc{desquilbet2019vers,
   title={Vers une recherche reproductible},
   author={Desquilbet, Loic and Granger, Sabrina and Hejblum, Boris and Legrand, Arnaud and Pernot, Pascal and Rougier, Nicolas P and de Castro Guerra, Elisa and Courbin-Coulaud, Martine and Duvaux, Ludovic and Gravier, Pierre and others},
   year={2019}
 }
 
-# Article de Mills
+% Article de Mills
 @article{mills2015archiving,
   title={Archiving primary data: solutions for long-term studies},
   author={Mills, James A and Teplitsky, C{\'e}line and Arroyo, Beatriz and Charmantier, Anne and Becker, Peter H and Birkhead, Tim R and Bize, Pierre and Blumstein, Daniel T and Bonenfant, Christophe and Boutin, Stan and others},
@@ -28,7 +28,7 @@
   publisher={Elsevier}
 }
 
-# Article de Munafo
+% Article de Munafo
 @article{munafo2017manifesto,
   title={A manifesto for reproducible science},
   author={Munaf{\`o}, Marcus R and Nosek, Brian A and Bishop, Dorothy VM and Button, Katherine S and Chambers, Christopher D and Du Sert, Nathalie Percie and Simonsohn, Uri and Wagenmakers, Eric-Jan and Ware, Jennifer J and Ioannidis, John PA},
@@ -40,7 +40,7 @@
   publisher={Nature Publishing Group}
 }
 
-# Article de Poisot 2013
+% Article de Poisot 2013
 @article{poisot2013moving,
   title={Moving toward a sustainable ecological science: don't let data go to waste!},
   author={Poisot, Timoth{\'e}e E and Mounce, Ross and Gravel, Dominique},
@@ -50,7 +50,7 @@
   year={2013}
 }
 
-# Article de Baker
+% Article de Baker
 @article{baker2016reproducibility,
   title={Reproducibility crisis?},
   author={Baker, Monya},
@@ -61,7 +61,7 @@
   year={2016}
 }
 
-# Site internet 3 - France Inter
+% Site internet 3 - France Inter
 @MISC {Site3,
     author       = "Dominique Dupage",
     title        = "Comment améliorer la reproductibilité de la recherche scientifique ?",
@@ -71,7 +71,7 @@
     note         = "Consulté le 3 avril 2020"
 }
 
-# Site internet 1 - Québec Science
+% Site internet 1 - Québec Science
 @MISC {Site1,
     author       = "Marie Lambert-Chan",
     title        = "Reproductibilité : de l’impasse à l’espoir",
@@ -82,7 +82,7 @@
     note         = "Consulté le 3 avril 2020"
 }
 
-# Site internet 2 - Pseudo-Science
+% Site internet 2 - Pseudo-Science
 @MISC {Site2,
     author       = "{AFIS Science}",
     title        = "Comment améliorer la reproductibilité de la recherche scientifique ?",
@@ -93,7 +93,7 @@
     note         = "Consulté le 3 avril 2020"
 }
 
-# Site internet 4 - The Conversation
+% Site internet 4 - The Conversation
 @MISC {Site4,
     author       = "Erwan Lamy",
     title        = "Une crise de reproductibilité de la science ? Non, c’est bien pire !",
