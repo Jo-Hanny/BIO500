@@ -1,4 +1,4 @@
-#Mettre les informations sous Overleaf pour créer le PDF de la rédaction
+%Mettre les informations sous Overleaf pour créer le PDF de la rédaction
 
 \documentclass[12pt]{article}
 \usepackage[T1]{fontenc}
